@@ -42,5 +42,5 @@ top5 = FOREACH group2 {
 DUMP top5;
 
 -- STORE (optional)
-STORE top5 INTO '/user/trang/output/bai5/top5_words_by_category'
+STORE top5 INTO '/user/trang/output/bai5'
 USING PigStorage(',');
